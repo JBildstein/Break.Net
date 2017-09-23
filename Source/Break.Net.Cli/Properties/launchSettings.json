@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Break.Net.Cli": {
+      "commandName": "Project"
+    }
+  }
+}

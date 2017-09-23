@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.0;netstandard1.5;netstandard2.0</TargetFrameworks>
+    <AssemblyName>BreakDotNet</AssemblyName>
+    <PackageId>Break.Net</PackageId>
+  </PropertyGroup>
+
+  <Import Project="..\..\Shared\Break.Net.Common.proj" />
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+</Project>

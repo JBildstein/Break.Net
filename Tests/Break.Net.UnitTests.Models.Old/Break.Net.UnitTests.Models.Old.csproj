@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>BreakDotNet.UnitTests.Models.Old</AssemblyName>
+  </PropertyGroup>
+  
+  <Import Project="..\..\Shared\Break.Net.UnitTests.Common.proj" />
+</Project>

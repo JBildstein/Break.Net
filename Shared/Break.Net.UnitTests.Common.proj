@@ -1,0 +1,9 @@
+﻿<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>BreakDotNet.UnitTests</RootNamespace>
+    <Copyright>Copyright © Johannes Bildstein 2017</Copyright>
+    <CodeAnalysisRuleSet>..\..\Shared\Break.Net.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+</Project>

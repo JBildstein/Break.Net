@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp2.0;net45</TargetFrameworks>
+    <AssemblyName>breakdotnet-cli</AssemblyName>
+    <PackageId>Break.Net-Cli</PackageId>
+  </PropertyGroup>
+
+  <Import Project="..\..\Shared\Break.Net.Common.proj" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\Break.Net\Break.Net.csproj" />
+  </ItemGroup>
+</Project>

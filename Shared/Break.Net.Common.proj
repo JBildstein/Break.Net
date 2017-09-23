@@ -1,0 +1,23 @@
+﻿<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>BreakDotNet</RootNamespace>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <AutoIncrementPackageRevision>True</AutoIncrementPackageRevision>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <CodeAnalysisRuleSet>..\..\Shared\Break.Net.ruleset</CodeAnalysisRuleSet>
+    <Authors>Johannes Bildstein</Authors>
+    <Company />
+    <Description>Compare .Net assemblies for changes according to semantic versioning rules</Description>
+    <Copyright>Copyright © Johannes Bildstein 2017</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/JBildstein/Break.Net</RepositoryUrl>
+    <PackageTags>.Net Semantic Versioning semver</PackageTags>
+    <PackageProjectUrl>https://github.com/JBildstein/Break.Net</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Shared\AssemblyInfo.Common.cs" Link="Properties\AssemblyInfo.Common.cs" />
+  </ItemGroup>
+</Project>
